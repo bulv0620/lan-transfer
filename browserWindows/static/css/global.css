@@ -3,14 +3,33 @@
 * {
   padding: 0;
   margin: 0;
-  --bg-color: #303243;
-  --front-color: #b7e2f4;
-  --hover-color: #414757;
+  transition: all .1s;
+}
+
+body {
+  background: none;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    --bg-color: rgba(66, 161, 255, .9);
+    --front-color: #ffffff;
+    --hover-color: #79bbff;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    --bg-color: rgba(29, 29, 29, .9);
+    --front-color: #a3a6ad;
+    --hover-color: #303030;
+  }
 }
 
 .main {
   height: 100vh;
   background: var(--bg-color);
+  border-radius: 6px;
+  overflow: hidden;
 }
 
 .main .top {
@@ -23,7 +42,7 @@
   height: 30px;
   width: 32px;
   line-height: 32px;
-  color: #b7e2f4;
+  color: var(--front-color);
   text-align: center;
   padding-top: 2px;
   font-size: 24px;

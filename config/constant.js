@@ -18,6 +18,7 @@ module.exports = {
         frame: false,
         focusable: true,
         resizable: false,
+        transparent: true,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false

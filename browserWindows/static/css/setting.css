@@ -23,9 +23,10 @@
   margin-right: 8px;
   cursor: pointer;
   background: var(--front-color);
+  color: var(--bg-color);
 }
 .main .setting-form .container .save-btn:hover {
-  background: none;
+  background: var(--bg-color);
   color: var(--front-color);
 }
 .main .setting-form .container .cancel-btn {
