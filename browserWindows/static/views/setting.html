@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>设置</title>
+    <link rel="stylesheet" href="../css/setting.css" />
+    <script src="../../src/setting.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top" style="-webkit-app-region: drag">
+        <div class="btn close-btn" style="-webkit-app-region: no-drag">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+
+      <div class="setting-form">
+        <div class="container">
+          <label for="name">
+            <span>主机名称:</span>
+            <input type="text" id="name" />
+          </label>
+          <label for="filePath">
+            <span>文件保存地址:</span>
+            <input type="text" id="filePath" />
+          </label>
+
+          <button class="btn save-btn">保存</button>
+          <button class="btn cancel-btn">取消</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

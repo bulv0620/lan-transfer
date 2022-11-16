@@ -1,0 +1,24 @@
+@import url("global.css");
+.main .progress {
+  margin-top: 4px;
+  padding: 0 18px;
+  height: 24px;
+}
+.main .progress .container {
+  border-radius: 6px;
+  border: 3px solid var(--front-color);
+  height: 100%;
+}
+.main .progress .container .bar {
+  height: 100%;
+  background: var(--front-color);
+  width: 0%;
+  transition: .1s;
+}
+.main .info {
+  margin-top: 12px;
+  color: var(--front-color);
+  padding: 0 18px;
+  display: flex;
+  justify-content: space-between;
+}

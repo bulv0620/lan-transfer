@@ -1,0 +1,110 @@
+@import url('./global.css');
+
+.main .file-uploader {
+  margin-top: 8px;
+  padding: 0 18px;
+}
+
+.main .file-uploader .container {
+  height: 200px;
+  border: dashed 3px var(--front-color);
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+}
+
+.main .file-uploader .container .icon {
+  position: absolute;
+  color: var(--front-color);
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main .file-uploader .container .icon i {
+  font-size: 80px;
+}
+
+.main .file-uploader .container .icon p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.main .upload-info {
+  margin-top: 18px;
+  padding: 0 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.main .upload-info .file-info {
+  color: var(--front-color);
+  width: 120px;
+}
+
+.main .upload-info .file-info .file-info-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main .upload-info .file-info .file-info-url {
+  display: none;
+}
+
+.main .upload-info .host-info {
+  width: 120px;
+  display: flex;
+}
+
+.main .upload-info .host-info #host-select {
+  width: 110px;
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--front-color);
+}
+
+.main .upload-info .host-info .refresh-btn {
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--front-color);
+  font-size: 16px;
+  display: block;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+.main .upload-info .host-info #host-select option {
+  color: var(--bg-color);
+}
+
+.main .btns {
+  margin-top: 18px;
+  padding: 0 12px;
+}
+
+.main .btns .container {
+  display: flex;
+  justify-content: center;
+}
+
+.main .btns .container #file-input {
+  display: none;
+}
+
+.main .btns .container .btn {
+  border-radius: 6px;
+  border: var(--front-color) 1px solid;
+  padding: 4px 12px 4px 8px;
+  color: var(--front-color);
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.main .btns .container .btn:hover {
+  background: var(--front-color);
+  color: var(--bg-color);
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wifi快传</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../../src/main.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="top" style="-webkit-app-region: drag">
+        <div class="btn close-btn" style="-webkit-app-region: no-drag">
+          <i class="bx bx-x"></i>
+        </div>
+        <div
+          class="btn setting-btn"
+          style="
+            font-size: 18px;
+            padding-top: 1;
+            height: 31px;
+            -webkit-app-region: no-drag;
+          "
+        >
+          <i class="bx bx-cog"></i>
+        </div>
+      </div>
+
+      <div class="file-uploader">
+        <div class="container">
+          <div class="icon">
+            <i class="bx bx-cloud-upload"></i>
+            <p>将文件拖拽到此处</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="upload-info">
+        <div class="file-info">
+          <p class="file-info-name">未选择文件</p>
+          <p class="file-info-url">未选择文件</p>
+        </div>
+        <div class="host-info">
+          <select name="host-select" id="host-select"></select>
+          <button class="refresh-btn"><i class="bx bx-refresh"></i></button>
+        </div>
+      </div>
+
+      <div class="btns">
+        <div class="container">
+          <input type="file" name="select-file" id="file-input" />
+          <div class="btn select-btn"><i class="bx bx-duplicate"></i> 选择</div>
+          <div class="btn clear-btn"><i class="bx bx-trash-alt"></i> 清除</div>
+          <div class="btn post-btn"><i class="bx bx-send"></i> 发送</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+@import url("global.css");
+.main .setting-form {
+  padding: 0 18px;
+}
+.main .setting-form .container input {
+  width: calc(100% - 16px);
+  outline: none;
+  background: none;
+  border: 2px solid var(--front-color);
+  border-radius: 6px;
+  color: var(--front-color);
+  padding: 4px 8px;
+  margin-bottom: 24px;
+}
+.main .setting-form .container span {
+  color: var(--front-color);
+}
+.main .setting-form .container .save-btn {
+  border-radius: 6px;
+  border: var(--front-color) 1px solid;
+  padding: 4px 12px 4px 8px;
+  color: #303243;
+  margin-right: 8px;
+  cursor: pointer;
+  background: var(--front-color);
+}
+.main .setting-form .container .save-btn:hover {
+  background: none;
+  color: var(--front-color);
+}
+.main .setting-form .container .cancel-btn {
+  border-radius: 6px;
+  border: var(--front-color) 1px solid;
+  padding: 4px 12px 4px 8px;
+  margin-right: 8px;
+  cursor: pointer;
+  background: none;
+  color: var(--front-color);
+}
+.main .setting-form .container .cancel-btn:hover {
+  background: var(--front-color);
+  color: var(--bg-color);
+}

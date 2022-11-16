@@ -1,0 +1,36 @@
+@import url("boxicons.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  --bg-color: #303243;
+  --front-color: #b7e2f4;
+  --hover-color: #414757;
+}
+
+.main {
+  height: 100vh;
+  background: var(--bg-color);
+}
+
+.main .top {
+  height: 36px;
+  /* background: #000; */
+}
+
+.main .top .btn {
+  float: right;
+  height: 30px;
+  width: 32px;
+  line-height: 32px;
+  color: #b7e2f4;
+  text-align: center;
+  padding-top: 2px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.main .top .btn:hover {
+  background: var(--hover-color);
+}
