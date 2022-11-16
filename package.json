@@ -4,7 +4,7 @@
   "description": "简单好用的文件传输工具",
   "main": "app.js",
   "scripts": {
-    "start": "electron main.js",
+    "start": "electron app.js",
     "build": "electron-builder --win --x64"
   },
   "author": "bulv<bulv0620@163.com>",
